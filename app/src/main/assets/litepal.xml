@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--  数据库名  -->
+    <dbname value="xiaoma_weather"/>
+
+    <!--  数据库版本号  -->
+    <version value="1"/>
+
+    <!--  指定映射模型  -->
+    <list>
+        <mapping class="com.example.xiaoma_weather.db.City"/>
+        <mapping class="com.example.xiaoma_weather.db.Province"/>
+        <mapping class="com.example.xiaoma_weather.db.County"/>
+    </list>
+
+    <!--  指定文件的存储方式  -->
+    <!--  <storage value="external" />-->
+</litepal>
